@@ -1,0 +1,28 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+	"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+	<script src="test_cb.js" type="text/javascript"></script>
+	<title>无标题文档</title>
+	<script type="text/javascript">
+		function test(){
+			var p=document.getElementById("pp");
+			pp.innerText="";
+			var num=document.getElementById("score").value;
+					   f(num,function(){ //匿名高层处理函数
+					   	if(num<60) alert("not good");
+					   	else if(num<=90) alert("well");
+					   	else alert("very good"); })
+					   pp.innerText="by since1978 qq558064!"
+					}
+	</script>
+</head>
+
+	<body
+	<p>if score<=0 low take over; else if score>0, hi level handle</p>
+	input score<input  type="text"  id="score"> 
+	<input type="button" onClick="test()" value=" results">
+	<p id="pp"></p>
+	</body>
+</html>
