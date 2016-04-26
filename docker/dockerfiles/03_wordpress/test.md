@@ -1,5 +1,3 @@
-1. docker run -P -d --name z_mongodb z_mongodb:0.1
+1. docker run -p 80:80 -d --name z_wordpress z_wordpress:0.1
 
-2. mongo --host 127.0.0.1 --port 32768
-
-3. ssh root@127.0.0.1 -p 32768
+2. ssh root@127.0.0.1 -p 22
