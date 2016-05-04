@@ -6,4 +6,8 @@
 meteor-platform
 #autopublish
 insecure
-verso:intercom
+iron:router
+http
+
+accounts-ui
+accounts-password

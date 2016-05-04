@@ -1,0 +1,11 @@
+<template name="about">
+  <div class="about-wechat"> <!-- /container -->
+    {{#if currentUser}}
+      <p>你已登陆</p >
+    {{else}}
+      <br><br><br><br>
+      <h4  class="text-center">你还未登录,请使用微信登录</h4>
+      {{> wechatLogin loginType='about'}}
+    {{/if}}
+  </div>
+</template>

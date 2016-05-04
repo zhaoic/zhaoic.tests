@@ -1,13 +1,3 @@
 {
-    "intercom": {
-      "secret":"lvQSrHK-c8NQJ1iO1JFT9WUR8MeHOtlH2KqqcVTY",
-      "apikey":"195bc1a10e946c48adf0b451b03d027264d939b4"
-     },
 
-   "public": {
-      "intercom": {
-        "id":"adg25v8r",
-        "allowAnonymous":true
-      }
-    }
-}
+};
