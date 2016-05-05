@@ -71,3 +71,5 @@ Router.route('/wechatLogin', {
     // this.render('loading');
   }
 });
+
+

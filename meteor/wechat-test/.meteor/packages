@@ -11,3 +11,9 @@ http
 
 accounts-ui
 accounts-password
+
+meteorhacks:picker
+meteorhacks:npm
+
+
+npm-container
