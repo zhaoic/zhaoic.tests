@@ -11,7 +11,7 @@ var post = Picker.filter(function(req, res) {
   return req.method == "POST";
 });
 
-post.route('/post', function(params, req, res, next) {
+post.route('/echo', function(params, req, res, next) {
   console.log(params);   // { query: {} }
   console.log(req.data); // undefined
   console.log(req.body); // {}
